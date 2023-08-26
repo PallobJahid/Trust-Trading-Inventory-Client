@@ -1,0 +1,75 @@
+.sidebar {
+  font-family: "Satoshi-Medium";
+  max-width: 250px;
+  background-color: $nutral-100;
+  box-shadow: $base-box-shadow;
+  height: 91.5vh;
+  overflow: hidden;
+  position: relative;
+
+  ul {
+    margin-left: 20px;
+
+    li a {
+      display: inline-block;
+      width: 230px;
+      padding: 15px 0px 15px 15px;
+    }
+
+    &:hover a {
+      color: $primary;
+    }
+  }
+
+  .selected {
+    background-color: $primary;
+    color: $nutral-100;
+    &:hover {
+      color: $nutral-100;
+    }
+  }
+
+  .dashboard-button-holder {
+    height: 70px;
+    overflow: hidden;
+
+    .dashboard-button {
+      display: flex;
+      background-color: $nutral-100;
+      box-shadow: $base-box-shadow;
+      color: $secondary;
+      width: 230px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 10px;
+      right: 0;
+      font-weight: normal;
+      font-size: $base-font-size;
+      border-radius: 5px 0 0 5px;
+      cursor: pointer;
+
+      img {
+        display: inline-block;
+        margin-right: 35px;
+      }
+
+      a {
+        width: 100%;
+        text-align: center;
+        transition-property: font-weight;
+        transition-duration: 400ms;
+        transition-timing-function: ease-in-out;
+      }
+      a::after {
+        content: url("../../images/Arrow_1.png");
+        margin-left: 10px;
+      }
+
+      &:hover a {
+        font-weight: bold;
+      }
+    }
+  }
+}

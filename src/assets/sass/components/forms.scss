@@ -1,0 +1,22 @@
+.form-group {
+  margin: 20px 0;
+  background-color: none;
+  .form-control {
+    height: 25px;
+    border-bottom: 2px solid $nutral-50;
+    width: 355px;
+    background-color: transparent;
+  }
+}
+.input-btn {
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.authpage-title {
+  font-family: "Satoshi-BlackItalic";
+  font-size: 48px;
+  color: $primary;
+}

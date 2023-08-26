@@ -1,0 +1,24 @@
+.dropdown {
+  position: absolute;
+  z-index: 100;
+
+  ul {
+    color: $primary;
+    text-align: center;
+
+    li {
+      a {
+        background-color: $nutral-100;
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        width: 100%;
+        border-radius: 4px;
+      }
+      &:hover a {
+        background-color: $primary;
+        color: $nutral-100;
+      }
+    }
+  }
+}

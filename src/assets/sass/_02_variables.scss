@@ -1,0 +1,18 @@
+// spacing
+$base-padding: 0.75rem !default;
+$base-margin: 0.75rem !default;
+
+// borders
+$base-border-thickness: 1px !default;
+$base-border-radius: 5px !default;
+
+// box-shadow
+$base-box-shadow: -1px 0px 25px -4px rgba(190, 199, 220, 0.65);
+
+// font sizes
+$base-font-size: 1rem !default;
+$font-size-sm: $base-font-size * 0.75 !default;
+$font-size-md: $base-font-size * 0.875 !default;
+$font-size-lg: $base-font-size * 1.125 !default;
+$font-size-xl: $base-font-size * 1.25 !default;
+$font-size-xxl: $base-font-size * 1.5 !default;

@@ -1,0 +1,101 @@
+@import "./fonts.scss";
+
+/* reset styles */
+html {
+  width: 100%;
+  height: 100%;
+  background: $nutral-80;
+}
+
+* {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  // box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  font-family: "Satoshi-regular";
+  font-style: normal;
+  background-color: $nutral-80;
+  line-height: 1.2;
+}
+
+.light {
+  font-family: "Satoshi-Light";
+}
+.regular {
+  font-family: "Satoshi-Regular";
+}
+.medium {
+  font-family: "Satoshi-Medium";
+}
+.bold {
+  font-family: "Satoshi-Bold";
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-center {
+  min-height: 100%;
+  align-items: center;
+}
+
+input {
+  outline: none;
+  border: none;
+  font-size: $font-size-lg;
+  padding-left: 5px;
+  color: $text-50;
+}
+
+.btn-primary {
+  background-color: $primary;
+  color: $nutral-100;
+}
+.btn-secondary {
+  background-color: $secondary;
+  color: $nutral-100;
+}
+.btn-contrast {
+  background-color: $contrast;
+  color: $nutral-0;
+}
+.btn-nutral {
+  background-color: $nutral-50;
+  color: $nutral-0;
+}
+.btn-info {
+  background-color: $info;
+  color: $nutral-100;
+}
+.btn-success {
+  background-color: $success;
+  color: $nutral-100;
+}
+.btn-error {
+  background-color: $error;
+  color: $nutral-100;
+}
