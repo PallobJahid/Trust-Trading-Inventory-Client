@@ -7,7 +7,7 @@ const Profile = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { isDirty, errors },
     reset,
   } = useForm();
   const onSubmit = async (data) => {
@@ -39,7 +39,7 @@ const Profile = () => {
               id="formFile"
             />
           </div>
-          <button type="submit" className="btn btn-primary">
+          <button disabled={!isDirty} type="submit" className="btn btn-primary">
             Submit
           </button>
           <button
